@@ -1,0 +1,37 @@
+﻿生成启动时间为 2018/1/26 1:16:09。
+     1>项目“D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\src\CourseworkBase.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\SDL\include /ZI /nologo /W1 /WX- /Od /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\\" /Fd"D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\vc120.pdb" /FR"D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\\" /Gd /TP /analyze- /errorReport:prompt MyEngine.cpp
+         MyEngine.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\CourseworkBase.exe" /NOLOGO /LIBPATH:..\SDL\libx86 SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\CourseworkBase.pdb" /MAP:"map" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE:NO /IMPLIB:"D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\CourseworkBase.lib" /MACHINE:X86 /SAFESEH "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\mainfunction.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\BaseEngine.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\DisplayableObject.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\FontManager.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\JPGImage.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\MyEngine.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\MyTileManager.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\PlayRules.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\SimpleDemo.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\TileManager.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\BouncingBall.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\BouncingBallMain.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo1Main.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo2Main.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo2Object.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo2TileManager.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo3Main.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo3Object.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo3ObjectFinished.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo3TileManager.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo4Main.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo4Object.obj"
+         "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo4TileManager.obj"
+         CourseworkBase.vcxproj -> D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\CourseworkBase.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\CourseworkBase.bsc" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\mainfunction.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\BaseEngine.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\DisplayableObject.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\FontManager.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\JPGImage.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\MyEngine.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\MyTileManager.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\PlayRules.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\SimpleDemo.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\TileManager.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\BouncingBall.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\BouncingBallMain.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo1Main.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo2Main.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo2Object.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo2TileManager.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo3Main.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo3Object.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo3ObjectFinished.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo3TileManager.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo4Main.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo4Object.sbr" "D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\/Debug\Demo4TileManager.sbr"
+     1>已完成生成项目“D:\[iPlaySoft.com]VS2013_RTM_PRO_CHS\Ashta Chamma\src\CourseworkBase.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.75
