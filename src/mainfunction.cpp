@@ -5,34 +5,18 @@
 #include "templates.h"
 
 // Needs one of the following #includes, to include the class definition
-#include "BouncingBallMain.h"
-#include "SimpleDemo.h"
-#include "Demo1Main.h"
-#include "Demo2Main.h"
-#include "Demo3Main.h"
-#include "Demo4Main.h"
 #include "MyEngine.h"
+
+#include "PlayRules.h"
 
 #define BASE_SCREEN_WIDTH 800
 #define BASE_SCREEN_HEIGHT 600
-
-
 
 int main(int argc, char *argv[])
 {
 	int iResult;
 
 	// Send random number generator with current time
-	::srand(time(0));
-
-	// Needs just one of the two following lines:
-	//BouncingBallMain oMain;
-	//SimpleDemo oMain;
-	//Demo1Main oMain;
-	//Demo2Main oMain;
-	//Demo3Main oMain;
-	//Demo4Main oMain;
-	//BaseInterface oMain;
 	MyEngine oMain;
 
 	char buf[1024];

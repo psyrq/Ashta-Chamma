@@ -54,7 +54,36 @@ void MyTileManager::DrawTileAt(BaseEngine* pEngine,
 			TileColour,
 			pSurface);
 	}
-	
+
+	else if (flag == 2) {
+		pEngine->DrawTriangle(
+			iStartPositionScreenX,
+			iStartPositionScreenY,
+			iStartPositionScreenX,
+			iStartPositionScreenY + 30,
+			iStartPositionScreenX + 15,
+			iStartPositionScreenY + 15,
+			TileColour,
+			pSurface);
+	}
+	else if (flag == 3) {
+		pEngine->DrawLine(
+			iStartPositionScreenX,
+			iStartPositionScreenY,
+			iStartPositionScreenX + GetTileWidth() - 1,
+			iStartPositionScreenY,
+			TileColour,
+			pSurface);
+	}
+	else if (flag == 4) {
+		pEngine->DrawLine(
+			iStartPositionScreenX,
+			iStartPositionScreenY,
+			iStartPositionScreenX,
+			iStartPositionScreenY + GetTileWidth() - 1,
+			TileColour,
+			pSurface);
+	}
 }
 
 int MyTileManager::getTileWidth()

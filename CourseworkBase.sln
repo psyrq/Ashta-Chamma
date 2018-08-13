@@ -1,18 +1,41 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CourseworkBase", "src\CourseworkBase.vcxproj", "{63F64093-23C3-4181-8554-C22C5AE2DDAC}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Ashta Chamma", "Ashta Chamma\Ashta Chamma.isproj", "{8CA922F2-8CA6-4589-9114-05443A808BDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Win32 = CD_ROM|Win32
 		Debug|Win32 = Debug|Win32
+		DVD-5|Win32 = DVD-5|Win32
 		Release|Win32 = Release|Win32
+		SingleImage|Win32 = SingleImage|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63F64093-23C3-4181-8554-C22C5AE2DDAC}.CD_ROM|Win32.ActiveCfg = Release|Win32
+		{63F64093-23C3-4181-8554-C22C5AE2DDAC}.CD_ROM|Win32.Build.0 = Release|Win32
 		{63F64093-23C3-4181-8554-C22C5AE2DDAC}.Debug|Win32.ActiveCfg = Debug|Win32
 		{63F64093-23C3-4181-8554-C22C5AE2DDAC}.Debug|Win32.Build.0 = Debug|Win32
+		{63F64093-23C3-4181-8554-C22C5AE2DDAC}.DVD-5|Win32.ActiveCfg = Debug|Win32
+		{63F64093-23C3-4181-8554-C22C5AE2DDAC}.DVD-5|Win32.Build.0 = Debug|Win32
 		{63F64093-23C3-4181-8554-C22C5AE2DDAC}.Release|Win32.ActiveCfg = Release|Win32
 		{63F64093-23C3-4181-8554-C22C5AE2DDAC}.Release|Win32.Build.0 = Release|Win32
+		{63F64093-23C3-4181-8554-C22C5AE2DDAC}.SingleImage|Win32.ActiveCfg = Release|Win32
+		{63F64093-23C3-4181-8554-C22C5AE2DDAC}.SingleImage|Win32.Build.0 = Release|Win32
+		{8CA922F2-8CA6-4589-9114-05443A808BDC}.CD_ROM|Win32.ActiveCfg = CD_ROM
+		{8CA922F2-8CA6-4589-9114-05443A808BDC}.CD_ROM|Win32.Build.0 = CD_ROM
+		{8CA922F2-8CA6-4589-9114-05443A808BDC}.Debug|Win32.ActiveCfg = DVD-5
+		{8CA922F2-8CA6-4589-9114-05443A808BDC}.Debug|Win32.Build.0 = DVD-5
+		{8CA922F2-8CA6-4589-9114-05443A808BDC}.DVD-5|Win32.ActiveCfg = DVD-5
+		{8CA922F2-8CA6-4589-9114-05443A808BDC}.DVD-5|Win32.Build.0 = DVD-5
+		{8CA922F2-8CA6-4589-9114-05443A808BDC}.Release|Win32.ActiveCfg = SingleImage
+		{8CA922F2-8CA6-4589-9114-05443A808BDC}.Release|Win32.Build.0 = SingleImage
+		{8CA922F2-8CA6-4589-9114-05443A808BDC}.SingleImage|Win32.ActiveCfg = SingleImage
+		{8CA922F2-8CA6-4589-9114-05443A808BDC}.SingleImage|Win32.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

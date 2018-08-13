@@ -51,48 +51,6 @@
     <ClInclude Include="TileManager.h">
       <Filter>Header Files\Shared</Filter>
     </ClInclude>
-    <ClInclude Include="BouncingBall.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="BouncingBallMain.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="Demo2Main.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="Demo2Object.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="Demo2TileManager.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="Demo3Main.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="Demo3Object.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="Demo3ObjectFinished.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="Demo3TileManager.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="Demo4Main.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="Demo4Object.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="Demo4TileManager.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="Demo1Main.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleDemo.h">
-      <Filter>Header Files\Demos</Filter>
-    </ClInclude>
     <ClInclude Include="MyEngine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -100,6 +58,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PlayRules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -122,48 +83,6 @@
     <ClCompile Include="TileManager.cpp">
       <Filter>Source Files\Shared</Filter>
     </ClCompile>
-    <ClCompile Include="BouncingBall.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="BouncingBallMain.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="Demo2Main.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="Demo2Object.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="Demo2TileManager.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="Demo3Main.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="Demo3Object.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="Demo3ObjectFinished.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="Demo3TileManager.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="Demo4Main.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="Demo4Object.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="Demo4TileManager.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="Demo1Main.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
-    <ClCompile Include="SimpleDemo.cpp">
-      <Filter>Source Files\Demos</Filter>
-    </ClCompile>
     <ClCompile Include="MyEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -173,5 +92,16 @@
     <ClCompile Include="PlayRules.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Cicero Sans Negrita.ttf" />
+    <Font Include="consola.ttf" />
+    <Font Include="Cornerstone Regular.ttf" />
+    <Font Include="Deja Vu Sans Mono.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CourseworkBase.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

@@ -97,22 +97,9 @@
     <ClInclude Include="MyEngine.h" />
     <ClInclude Include="MyTileManager.h" />
     <ClInclude Include="PlayRules.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="templates.h" />
     <ClInclude Include="TileManager.h" />
-    <ClInclude Include="BouncingBall.h" />
-    <ClInclude Include="BouncingBallMain.h" />
-    <ClInclude Include="Demo1Main.h" />
-    <ClInclude Include="Demo2Main.h" />
-    <ClInclude Include="Demo2Object.h" />
-    <ClInclude Include="Demo2TileManager.h" />
-    <ClInclude Include="Demo3Main.h" />
-    <ClInclude Include="Demo3Object.h" />
-    <ClInclude Include="Demo3ObjectFinished.h" />
-    <ClInclude Include="Demo3TileManager.h" />
-    <ClInclude Include="Demo4Main.h" />
-    <ClInclude Include="Demo4Object.h" />
-    <ClInclude Include="Demo4TileManager.h" />
-    <ClInclude Include="SimpleDemo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mainfunction.cpp" />
@@ -123,21 +110,16 @@
     <ClCompile Include="MyEngine.cpp" />
     <ClCompile Include="MyTileManager.cpp" />
     <ClCompile Include="PlayRules.cpp" />
-    <ClCompile Include="SimpleDemo.cpp" />
     <ClCompile Include="TileManager.cpp" />
-    <ClCompile Include="BouncingBall.cpp" />
-    <ClCompile Include="BouncingBallMain.cpp" />
-    <ClCompile Include="Demo1Main.cpp" />
-    <ClCompile Include="Demo2Main.cpp" />
-    <ClCompile Include="Demo2Object.cpp" />
-    <ClCompile Include="Demo2TileManager.cpp" />
-    <ClCompile Include="Demo3Main.cpp" />
-    <ClCompile Include="Demo3Object.cpp" />
-    <ClCompile Include="Demo3ObjectFinished.cpp" />
-    <ClCompile Include="Demo3TileManager.cpp" />
-    <ClCompile Include="Demo4Main.cpp" />
-    <ClCompile Include="Demo4Object.cpp" />
-    <ClCompile Include="Demo4TileManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Cicero Sans Negrita.ttf" />
+    <Font Include="consola.ttf" />
+    <Font Include="Cornerstone Regular.ttf" />
+    <Font Include="Deja Vu Sans Mono.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CourseworkBase.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
